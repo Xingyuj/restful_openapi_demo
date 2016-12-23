@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.container {
+    min-width: 100%;
+    border: 1px solid gray;
+    display: table;
+    word-wrap:break-word 
+}
+header, footer {
+    padding: 1px;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+nav {
+    text-align: center;
+    padding: 1em;
+    font-weight: bold;
+}
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    table-layout:auto;
+    width:100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+td.content {
+	border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+	word-wrap: break-word;
+    width: 100%;
+	word-break:break-all;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+<header><h2>CliniCloud Challenge Outcome</h2></header>
+
+<nav>Login Infomation</nav>
+
+<table>
+  <tr>
+    <td >Access_token </td>
+    <td class= content> eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJjaWQiOiJY
+    	LUNIQUxMRU5HRS1BUFAiLCJleHAiOiIyMDE2LTA5LTI4VDEzOjU2OjAxL
+    	jk3NDg0MjE0OFoiLCJ0aW1lIjoiMjAxNi0wOS0yOFQxMzo0MTowMS45NzQ4NDc3NT
+    	VaIiwidG9rZW5fdHlwZSI6ImFjY2Vzc190b2tlbiJ9.chMuF4K4p6FwJw
+    	1QtBOclfTPK7cgmBqo7w6-1Y7zdRGTzZHoOM2EzEQ4osEpeTvHNs4EXfkkNvYOO_L
+    	FUMmuLECj21fWD3p81GwvrlhGFUg8HwuQu-JL-0vsLsPE1lho7nT1an4P
+    	wCp31OHkl5RUnqfkX-u-1y6FgKRlhRT-YUs</td>
+  </tr>
+  <tr>
+    <td>Expires_in</td>
+    <td class= content> 900</td>
+  </tr>
+  <tr>
+    <td>Host</td>
+    <td class= content> https://stg.clinicloud.com</td>
+  </tr>
+  <tr>
+    <td>New_user</td>
+    <td class= content> false</td>
+  </tr>
+  <tr>
+    <td>Refresh_token</td>
+    <td class= content> eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJjaWQiOiJY
+    	LUNIQUxMRU5HRS1BUFAiLCJleHAiOiIyMDE2LTA5LTI4VDEzOjU2OjAxLj
+    	k3NDg0MjE
+    	0OFoiLCJ0aW1lIjoiMjAxNi0wOS0yOFQxMzo0MTowMS45NzU5ODgxNzFaIiwidG9rZ
+    	W5fdHlwZSI6InJlZnJlc2hfdG9rZW4ifQ.lwUyJzPNKNyVCtz5SFnK-zH-gLqOjr-a
+    	VUBnVwQfgaI2lMm-7HD3_9YpLg5HBr-R5Ph5cvJTKRpn-yXEJcJE5vt4MyrNOEoelN
+    	ycT4xzqZCykzRzFNU11-Hxzsd5Poff2QX-YLCwUXkGS6TNUaaARSUtk9a3xBxkQ_V
+    	eGlW4VqA</td>
+  </tr>
+  <tr>
+    <td>Scope</td>
+    <td class= content> 44493186-c555-22e6-af34-558a5b9ec55a_READ-WRITE_USER-DEP</td>
+  </tr>
+  <tr>
+    <td>Token_type</td>
+    <td class= content> Bearer</td>
+  </tr>
+  <tr>
+    <td>Uuid</td>
+    <td class= content> 44493186-c555-22e6-af34-558a5b9ec55a</td>
+  </tr>
+  <tr>
+    <td>Raw Json Content</td>
+    <td class= content> <pre><code>Login response Status:200 OK<br>{
+  "Type": "Access_token",
+  "Content": {
+    "Access_token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJjaWQiOiJYLUNI
+    QUxMRU5HRS1BUFAiLCJleHAiOiIyMDE2LTA5LTI4VDEzOjU2OjAxLjk3NDg0MjE0OF
+    oiLCJ0aW1lIjoiMjAxNi0wOS0yOFQxMzo0MTowMS45NzQ4NDc3NTVaIiwidG9rZW5fdHlw
+    ZSI6ImFjY2Vzc190b2tlbiJ9.chMuF4K4p6FwJw1QtBOclfTPK7cgmBqo7w6-1Y7zdRGTz
+    ZHoOM2EzEQ4osEpeTvHNs4EXfkkNvYOO_LFUMmuLECj21fWD3p81GwvrlhGFUg8HwuQu-J
+    L-0vsLsPE1lho7nT1an4PwCp31OHkl5RUnqfkX-u-1y6FgKRlhRT-YUs",
+    "Expires_in": 900,
+    "Host": "https://stg.clinicloud.com",
+    "New_user": "false",
+    "Refresh_token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJjaWQiOiJYLUNIQ
+    UxMRU5HRS1BUFAiLCJleHAiOiIyMDE2LTA5LTI4VDEzOjU2OjAxLjk3NDg0MjE0OF
+    iLCJ0aW1lIjoiMjAxNi0wOS0yOFQxMzo0MTowMS45NzU5ODgxNzFaIiwidG9rZW5fdHlwZS
+    I6InJlZnJlc2hfdG9rZW4ifQ.lwUyJzPNKNyVCtz5SFnK-zH-gLqOjr-aVUBnVwQfg
+    aI2lMm-7HD3_9YpLg5HBr-R5Ph5cvJTKRpn-yXEJcJE5vt4MyrNOEoelNycT4xzqZCykzRz
+    FNU11-Hxzsd5Poff2QX-YLCwUXkGS6TNUaaARSUtk9a3xBxkQ_VeGlW4VqA",
+    "Scope": "44493186-c555-22e6-af34-558a5b9ec55a_READ-WRITE_USER-DEP",
+    "Token_type": "Bearer",
+    "Uuid": "44493186-c555-22e6-af34-558a5b9ec55a"
+  }
+}</code></pre>
+  }</td>
+  </tr>
+</table>
+
+<nav>User Infomation</nav>
+<table>
+  <tr>
+    <td >Id</td>
+    <td class= content>44493186-c555-22e6-af34-558a5b9ec55a</td>
+  </tr>
+  <tr>
+    <td>Mail</td>
+    <td class= content> test@clinicloud.com</td>
+  </tr>
+  <tr>
+    <td>First_name</td>
+    <td class= content> Michael</td>
+  </tr>
+  <tr>
+    <td>Last_name</td>
+    <td class= content> Williams</td>
+  </tr>
+  <tr>
+    <td>Dob</td>
+    <td class= content>3.246048e+08</td>
+  </tr>
+  <tr>
+    <td>Gender</td>
+    <td class= content> male </td>
+  </tr>
+  <tr>
+    <td>Country</td>
+    <td class= content> AU</td>
+  </tr>
+  <tr>
+    <td>Password</td>
+    <td class= content> </td>
+  </tr>
+  <tr>
+    <td>State</td>
+    <td class= content> ACTIVE</td>
+  </tr>
+  <tr>
+    <td>NotifyRecord</td>
+    <td class= content> false</td>
+  </tr>
+  <tr>
+    <td>UseMetric</td>
+    <td class= content>true </td>
+  </tr>
+  <tr>
+    <td>Weight</td>
+    <td class= content> 80</td>
+  </tr>
+  <tr>
+    <td>Height</td>
+    <td class= content> 180</td>
+  </tr>
+  <tr>
+    <td>PriDependents</td>
+    <td class= content> 2</td>
+  </tr>
+    <td>Raw Json Content</td>
+    <td class= content> <pre><code>Retrieve userInfo Status:200 OK<br>{
+  "Type": "user_info",
+  "Content": {
+    "Id": "44493186-c555-22e6-af34-558a5b9ec55a",
+    "Mail": "test@clinicloud.com",
+    "First_name": "Michael",
+    "Last_name": "Williams",
+    "Dob": 3.246048e+08,
+    "Gender": 1,
+    "Country": "AU",
+    "Password": "",
+    "State": "ACTIVE",
+    "NotifyRecord": false,
+    "Bio_details": {
+      "UseMetric": true,
+      "Weight": 80,
+      "Height": 180
+    },
+    "PriDependents": [
+      {
+        "Id": "4443ac9b-a7bd-4c74-aebe-e04e4dae98b0",
+        "Mail": "",
+        "First_name": "John",
+        "Last_name": "Williams",
+        "Dob": 1.1844576e+09,
+        "Gender": 1,
+        "Country": "",
+        "Password": "",
+        "State": "ACTIVE",
+        "NotifyRecord": true,
+        "Bio_details": {
+          "UseMetric": false,
+          "Weight": 35,
+          "Height": 130
+        }
+      },
+      {
+        "Id": "44458c04-fe0c-402b-b2b9-7977be692373",
+        "Mail": "",
+        "First_name": "Anna",
+        "Last_name": "Williams",
+        "Dob": 1.1844576e+09,
+        "Gender": 0,
+        "Country": "",
+        "Password": "",
+        "State": "ACTIVE",
+        "NotifyRecord": true,
+        "Bio_details": {
+          "UseMetric": false,
+          "Weight": 43,
+          "Height": 140
+        }
+      }
+    ]
+  }
+}</code></pre>
+  }</td>
+  </tr>
+</table>
+
+<nav>Sessions</nav>
+
+<table>
+  <tr>
+    <td >ID</td>
+    <td class= content>12D8840B-008E-4562-9A08-22BDB4973A67</td>
+  </tr>
+  <tr>
+    <td >UserId</td>
+    <td class= content>44493186-c555-22e6-af34-558a5b9ec55a</td>
+  </tr>
+  <tr>
+    <td>CaregiverID</td>
+    <td class= content> 44493186-c555-22e6-af34-558a5b9ec55a</td>
+  </tr>
+  <tr>
+    <td>Latitude</td>
+    <td class= content> -37.815765</td>
+  </tr>
+  <tr>
+    <td>Longitud</td>
+    <td class= content> 144.969825</td>
+  </tr>
+  <tr>
+    <td>Location</td>
+    <td class= content>Melbourne CBD</td>
+  </tr>
+  <tr>
+    <td>Note</td>
+    <td class= content> Testing </td>
+  </tr>
+  <tr>
+    <td>DeviceId</td>
+    <td class= content> d4c378751828db20c26c6600c20488b8c4154530b8f5c681b645a0bdb4842474</td>
+  </tr>
+  <tr>
+    <td>DeviceModel</td>
+    <td class= content> iPod5,1</td>
+  </tr>
+  <tr>
+    <td>AppVersion</td>
+    <td class= content> v1.2.1b1</td>
+  </tr>
+  <tr>
+    <td>AppType</td>
+    <td class= content> IOS</td>
+  </tr>
+  <tr>
+    <td>Sequence</td>
+    <td class= content> 270 </td>
+  </tr>
+  
+  <tr>
+    <td>Raw Json Content</td>
+    <td class= content> <pre><code>Retrieve sessions Status:200 OK<br>{
+	"Type": "sessions",
+	"Content": [
+		{
+			"ID": "1547FAA7-326A-4957-9939-CCE18FACB0C4",
+			"UserId": "44493186-c555-22e6-af34-558a5b9ec55a",
+			"CaregiverID": "44493186-c555-22e6-af34-558a5b9ec55a",
+			"Created": 1.474934241e+09,
+			"Latitude": -37.81551,
+			"Longitud": 144.970214,
+			"Location": "Melbourne CBD",
+			"Note": "",
+			"DeviceId": "d4c378751828db20c26c6600c20488b8c4154530b8f5c681b645
+			a0bdb4842474",
+			"DeviceModel": "iPod5,1",
+			"AppVersion": "v1.2.1b1",
+			"UpdateOrder": 4,
+			"Recordings": [
+				{
+					"ID": "E66AD17E-B4C7-406D-9804-677DD1EF153D",
+					"SessionID": "1547FAA7-326A-4957-9939-CCE18FACB0C4",
+					"UserID": "44493186-c555-22e6-af34-558a5b9ec55a",
+					"Type": 3,
+					"Data": {
+						"ambientTemp": 21.11000061035156,
+						"surfaceTemp": 32.95999908447266
+					},
+					"Created": 1.474934241e+09,
+					"Updated": 1.474934379e+09,
+					"State": "RECORDED",
+					"TrackData": {
+						"SerialMeasuringDevice": "0201201510160296",
+						"FirmwareMeasuringDevice": "0302"
+					}
+				}
+			],
+			"AppType": "IOS",
+			"Sequence": 265
+		},
+		{
+			"ID": "1a8e3569-7ec7-497c-a09c-945b9951f6eb",
+			"UserId": "44493186-c555-22e6-af34-558a5b9ec55a",
+			"CaregiverID": "44493186-c555-22e6-af34-558a5b9ec55a",
+			"Created": 1.47011344e+09,
+			"Latitude": -37.815853,
+			"Longitud": 144.970526,
+			"Location": "Melbourne",
+			"Note": "",
+			"DeviceId": "dt5Ll4zT8M8:APA91bFaINnh6iRm5sRiPhAOCXGfo6nHCJfpnZUN3Gx-
+			pgVeAovBdIrwhykWj5wfaw_FYrUOIjVDLJ84HdJUJdQq",
+			"DeviceModel": "hwChe2",
+			"AppVersion": "1.2.0",
+			"UpdateOrder": 2,
+			"Recordings": [
+				{
+					"ID": "f9bf8586-d2ed-4973-89d1-26bddbb8606e",
+					"SessionID": "1a8e3569-7ec7-497c-a09c-945b9951f6eb",
+					"UserID": "44493186-c555-22e6-af34-558a5b9ec55a",
+					"Type": 2,
+					"Data": {
+						"heartRate": 74
+					},
+					"FileExt": "flac",
+					"Created": 1.47011344e+09,
+					"Updated": 1.470113486e+09,
+					"State": "RECORDED",
+					"TrackData": {
+						"SerialMeasuringDevice": "",
+						"FirmwareMeasuringDevice": ""
+					},
+					"URLs": [
+						"https://cclouddevstorage.s3-accelerate.amazonaws.com/re
+						cordings/44493186-c555-22e6-af34-558a5b9ec55a/heart/f9bf
+						8586-d2ed-4973-89d1-26bddbb8606e_1470113440.000000_h1.fl
+						ac?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credentia
+						l=AKIAIQ76TPUW27KMGHBQ%2F20160928%2Fap-southeast-2%2Fs3%
+						2Faws4_request\u0026X-Amz-Date=20160928T134105Z
+						\u0026X-Amz-Expires=600\u0026X-Amz-SignedHeaders=host\u0
+						026X-Amz-Signature=502963cda597da30b9c6ad32853b110b1c14b
+						24b1f1d9585381892330b339dbe"
+					]
+				}
+			],
+			"AppType": "ANDROID",
+			"Sequence": 70
+		},
+		{
+			"ID": "799E4EAA-B1ED-47F5-993D-F83E00D01032",
+			"UserId": "44493186-c555-22e6-af34-558a5b9ec55a",
+			"CaregiverID": "44493186-c555-22e6-af34-558a5b9ec55a",
+			"Created": 1.474938824e+09,
+			"Latitude": -37.815603,
+			"Longitud": 144.969999,
+			"Location": "Melbourne CBD",
+			"Note": "",
+			"DeviceId": "d4c378751828db20c26c6600c20488b8c4154530b8f5c681b645a0bdb
+			4842474",
+			"DeviceModel": "iPod5,1",
+			"AppVersion": "v1.2.1b1",
+			"UpdateOrder": 5,
+			"Recordings": [
+				{
+					"ID": "D1E7A9FF-4EBF-4700-BE61-F3FF992AA36C",
+					"SessionID": "799E4EAA-B1ED-47F5-993D-F83E00D01032",
+					"UserID": "44493186-c555-22e6-af34-558a5b9ec55a",
+					"Type": 3,
+					"Data": {
+						"ambientTemp": 21.67000007629395,
+						"surfaceTemp": 32.72000122070312
+					},
+					"Created": 1.474938824e+09,
+					"Updated": 1.474938891e+09,
+					"State": "RECORDED",
+					"TrackData": {
+						"SerialMeasuringDevice": "0201201510160296",
+						"FirmwareMeasuringDevice": "0302"
+					}
+				}
+			],
+			"AppType": "IOS",
+			"Sequence": 267
+		},
+		{
+			"ID": "8EDA7698-2494-46CC-90B4-E90B154D12E0",
+			"UserId": "44493186-c555-22e6-af34-558a5b9ec55a",
+			"CaregiverID": "44493186-c555-22e6-af34-558a5b9ec55a",
+			"Created": 1.474941437e+09,
+			"Latitude": -37.815616,
+			"Longitud": 144.969954,
+			"Location": "Melbourne CBD",
+			"Note": "",
+			"DeviceId": "d4c378751828db20c26c6600c20488b8c4154530b8f5c681b645a0
+			bdb4842474",
+			"DeviceModel": "iPod5,1",
+			"AppVersion": "v1.2.1b1",
+			"UpdateOrder": 7,
+			"Recordings": [
+				{
+					"ID": "C8C24D03-0291-413E-AD4B-1B97F61D6084",
+					"SessionID": "8EDA7698-2494-46CC-90B4-E90B154D12E0",
+					"UserID": "44493186-c555-22e6-af34-558a5b9ec55a",
+					"Type": 2,
+					"Data": {
+						"heartRate": 70
+					},
+					"FileExt": "flac",
+					"Created": 1.47494145e+09,
+					"Updated": 1.474941506e+09,
+					"State": "RECORDED",
+					"TrackData": {
+						"SerialMeasuringDevice": "0101201510220004",
+						"FirmwareMeasuringDevice": "FirmwareMeasuringDev"
+					},
+					"URLs": [
+						"https://cclouddevstorage.s3-accelerate.amazonaws.com/
+						recordings/44493186-c555-22e6-af34-558a5b9ec55a/heart/
+						C8C24D03-0291-413E-AD4B-1B97F61D6084_1474941450.000000_h1.
+						flac?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credentia
+						l=AKIAIQ76TPUW27KMGHBQ%2F20160928%2Fap-southeast-2%2Fs3%2F
+						aws4_request\u0026X-Amz-Date=20160928T134
+						105Z\u0026X-Amz-Expires=600\u0026X-Amz-SignedHeaders=host
+						\u0026X-Amz-Signature=322b790518de5f7d0451f79bbf484e33a1d6
+						5c40ee974f4be514c6efc3cab5ca"
+					]
+				}
+			],
+			"AppType": "IOS",
+			"Sequence": 269
+		},
+		{
+			"ID": "95ebd962-e5ee-4d10-872f-90c1a4cf7c26",
+			"UserId": "44493186-c555-22e6-af34-558a5b9ec55a",
+			"CaregiverID": "44493186-c555-22e6-af34-558a5b9ec55a",
+			"Created": 1.470113646e+09,
+			"Latitude": -37.815853,
+			"Longitud": 144.970526,
+			"Location": "Melbourne",
+			"Note": "",
+			"DeviceId": "dt5Ll4zT8M8:APA91bFaINnh6iRm5sRiPhAOCXGfo6nHCJfpnZUN3Gx-p
+			gVeAovBdIrwhykWj5wfaw_FYrUOIjVDLJ84HdJUJdQq",
+			"DeviceModel": "hwChe2",
+			"AppVersion": "1.2.0",
+			"UpdateOrder": 3,
+			"Recordings": [
+				{
+					"ID": "115ca0a5-81d0-484a-bc44-b8841b8ba085",
+					"SessionID": "95ebd962-e5ee-4d10-872f-90c1a4cf7c26",
+					"UserID": "44493186-c555-22e6-af34-558a5b9ec55a",
+					"Type": 2,
+					"Data": {
+						"heartRate": 79
+					},
+					"FileExt": "flac",
+					"Created": 1.470113646e+09,
+					"Updated": 1.470113692e+09,
+					"State": "RECORDED",
+					"TrackData": {
+						"SerialMeasuringDevice": "",
+						"FirmwareMeasuringDevice": ""
+					},
+					"URLs": [
+						"https://cclouddevstorage.s3-accelerate.amazonaws.com/recordi
+						ngs/44493186-c555-22e6-af34-558a5b9ec55a/heart/11
+						5ca0a5-81d0-484a-bc44-b8841b8ba085_1470113646.000000_h1.flac?
+						X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIAIQ
+						76TPUW27KMGHBQ%2F20160928%2Fap-southeast-2%2Fs3%2Faws4_reques
+						t\u0026X-Amz-Date=20160928T13410
+						5Z\u0026X-Amz-Expires=600\u0026X-Amz-SignedHeaders=host\u002
+						6X-Amz-Signature=029561eb0d15e90ea4ff6deaea7537b30a9e70b41cce
+						e32c05247a508f1cda66"
+					]
+				}
+			],
+			"AppType": "ANDROID",
+			"Sequence": 71
+		},
+		{
+			"ID": "D24A881A-F249-4E4D-9AD9-2C3D68CC2314",
+			"UserId": "44493186-c555-22e6-af34-558a5b9ec55a",
+			"CaregiverID": "44493186-c555-22e6-af34-558a5b9ec55a",
+			"Created": 1.474941266e+09,
+			"Latitude": -37.815637,
+			"Longitud": 144.969842,
+			"Location": "Melbourne CBD",
+			"Note": "Testing ",
+			"DeviceId": "d4c378751828db20c26c6600c20488b8c4154530b8f5c681b645a0bdb4
+			842474",
+			"DeviceModel": "iPod5,1",
+			"AppVersion": "v1.2.1b1",
+			"UpdateOrder": 6,
+			"Recordings": [
+				{
+					"ID": "3F1EDAA9-5D7D-4F67-9239-47D51F22624B",
+					"SessionID": "D24A881A-F249-4E4D-9AD9-2C3D68CC2314",
+					"UserID": "44493186-c555-22e6-af34-558a5b9ec55a",
+					"Type": 3,
+					"Data": {
+						"ambientTemp": 22.54999923706055,
+						"surfaceTemp": 34.65000152587891
+					},
+					"Created": 1.474941266e+09,
+					"Updated": 1.474941347e+09,
+					"State": "RECORDED",
+					"TrackData": {
+						"SerialMeasuringDevice": "0201201510160296",
+						"FirmwareMeasuringDevice": "0302"
+					}
+				}
+			],
+			"AppType": "IOS",
+			"Sequence": 268
+		}
+	]
+}</code></pre></td>
+  </tr>
+</table>
+
+<footer>Made by Ethan (Xingyu Ji)</footer>
+</div>
+</body>
+</html>
